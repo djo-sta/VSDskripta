@@ -1,7 +1,48 @@
-Uputstvo za korišćenje programa glasacka_kutija
+UPUTSTVO ZA INSTALIRANJE PROGRAMA glasacka_kutija:
 
 Potrudio sam se da program napravim tako da mogu filozofi da ga koriste i fonovci da mu čitaju kod. Sve 
 je spakovano u jedan fajl kako bi se olakšalo manje stručnim kolegama.
+
+- Kako biste pokrenuli program, prvo morate kompajlovati kod (preporučujem g++ kompajler). Kako biste
+proverili da li je g++ već instaliran otvorite ComandPrompt ili Powershell na Windows sistemima ili u
+terminalu na Linux i MacOS sistemima i ukucajte: 
+
+g++ --version
+
+Ukoliko nije instaliran ispisaće grešku, a vi potražite na internetu kako se g++ instalira.
+Ako jeste instaliran, otvorite odabrani terminal emulator i prebacite se u folder u kojem se nalazi
+glasacka_kutija.cpp i ukucajte: 
+
+g++ glasacka_kutija.cpp -o glasacka_kutija
+
+Nakon što ste uneli ovu liniju u folderu će nastati novi fajl (na Windows je glasacka_kutija.exe, a na
+Linux i MacOS je glasacka_kutija ili glasacka_kutija.out). Pokrenite taj novi fajl. Ako se otvorio terminal
+na kom piše Почетни мени i lista opcija koje se mogu odabrati, čestitam! Uspeli ste da kompajlujete c++ kod!
+Ako niste dobili očekivani rezultat, pokušajte da pokrenete kao administrator, a ako ni to ne pomaže pitajte
+ChatGPT :)
+
+
+UPUTSTVO ZA KORIŠĆENJE PROGRAMA glasacka_kutija:
+
+- Fajlovi za uspešan rad programa:
+
+	Obavezni:
+		1) spisak.txt je fajl u kome se nalazi spisak svih članica VSDa. Sintaksa je sledeća: prve 52
+		   linije su puna imena všu, narednih 52 njihove latinične skraćenice i poslednjih 52 ćirilične
+		   skraćenice.
+	Poželjni:
+		1) glasoviddmm.txt je fajl u kojem se cuvaju sve informacije sa jedne sednice potrebne za obradu
+		   podataka. Sintaksa ovog fajla je objašnjena u delu 1. Učitavanje prošlog fajla. Program može
+		   da funkcioniše i bez ovog fajla, ali su onemogućene opcije 4 i 6 na početnom meniju.
+		2) labeleddmm.txt je fajl u kojem se cuvaju nazivi tačaka koje se glasaju tog dana. Tačke treba
+		   da budu ispisane respektivno po pravilu jedan red - jedna tačka. Program će raditi i bez ovog
+		   fajla, ali će prilikom ispisa umesto imena tačke samo napisati njen redni broj.
+	Nepotrebni:
+		1) rezultati_glasanjaddmm.txt je našminkani fajl koji je napravljen da se u svojoj celosti samo
+		   prekopira u izveštaj/zapisnik sa sednice. Program ne čita ovaj fajl.
+
+POSTARATI SE DA SE OBAVEZNI I POŽELJNI FAJLOVI NALAZE U ISTOM FOLDERU GDE JE I PROGRAM
+jer u suprotnom neće biti moguće njihovo čitanje.
 
 
 - Početni meni:
@@ -94,30 +135,11 @@ Ova opcija zatvara program. Ne radi nikakvu obradu ili ispis tako da je isto kao
 zatvorite prozor.
 
 
-- Fajlovi za uspešan rad programa:
 
-	Obavezni:
-		1) spisak.txt je fajl u kome se nalazi spisak svih članica VSDa. Sintaksa je sledeća: prve 52
-		   linije su puna imena všu, narednih 52 njihove latinične skraćenice i poslednjih 52 ćirilične
-		   skraćenice.
-	Poželjni:
-		1) glasoviddmm.txt je fajl u kojem se cuvaju sve informacije sa jedne sednice potrebne za obradu
-		   podataka. Sintaksa ovog fajla je objašnjena u delu 1. Učitavanje prošlog fajla. Program može
-		   da funkcioniše i bez ovog fajla, ali su onemogućene opcije 4 i 6 na početnom meniju.
-		2) labeleddmm.txt je fajl u kojem se cuvaju nazivi tačaka koje se glasaju tog dana. Tačke treba
-		   da budu ispisane respektivno po pravilu jedan red - jedna tačka. Program će raditi i bez ovog
-		   fajla, ali će prilikom ispisa umesto imena tačke samo napisati njen redni broj.
-	Nepotrebni:
-		1) rezultati_glasanjaddmm.txt je našminkani fajl koji je napravljen da se u svojoj celosti samo
-		   prekopira u izveštaj/zapisnik sa sednice. Program ne čita ovaj fajl.
-
-POSTARATI SE DA SE OBAVEZNI I POŽELJNI FAJLOVI NALAZE U ISTOM FOLDERU GDE JE I PROGRAM
-jer u suprotnom neće biti moguće njihovo čitanje.
 
 - fajlovi koji su produkt ovog programa su glasoviddmm.txt, rezultati_glasanjaddmm.txt, 
-glasacka_kutija.exe, glasacka_kutija.sh, glasacka_kutija.cpp. Bilo koji drugi fajl koji se nađe u ovom 
+glasacka_kutija.exe, glasacka_kutija.out, glasacka_kutija.cpp. Bilo koji drugi fajl koji se nađe u ovom 
 folderu je unet od strane drugih korisnika i nije potekao od programa glasacka_kutija.
-
 
 
 
