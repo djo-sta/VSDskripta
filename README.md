@@ -7,13 +7,13 @@ je spakovano u jedan fajl kako bi se olakšalo manje stručnim kolegama.
 proverili da li je g++ već instaliran otvorite ComandPrompt ili Powershell na Windows sistemima ili u
 terminalu na Linux i MacOS sistemima i ukucajte: 
 
-g++ --version
+`g++ --version`
 
 - Ukoliko nije instaliran ispisaće grešku, a vi potražite na internetu kako se g++ instalira.
 Ako jeste instaliran, otvorite odabrani terminal emulator i prebacite se u folder u kojem se nalazi
 glasacka_kutija.cpp i ukucajte: 
 
-g++ glasacka_kutija.cpp -o glasacka_kutija
+`g++ glasacka_kutija.cpp -o glasacka_kutija`
 
 - Nakon što ste uneli ovu liniju u folderu će nastati novi fajl (na Windows je glasacka_kutija.exe, a na
 Linux i MacOS je glasacka_kutija ili glasacka_kutija.out). Pokrenite taj novi fajl. Ako se otvorio terminal
