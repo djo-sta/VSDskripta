@@ -31,7 +31,7 @@ Hemijski fakultet
 Sumarski fakultet
 Fakultet dramskih umetnosti
 Fakultet likovnih umetnosti
-Fakultet muzickih umetnosti
+Fakultet muzicke umetnosti
 Fakultet primenjenih umetnosti
 Akademija strukovnih studija Politehnika
 Akademija umetnosti Alfa BK
@@ -80,7 +80,7 @@ FF
 F
 FILFAK
 HF
-SHF
+SFB
 FDU
 FLU
 FMU
@@ -98,7 +98,7 @@ DTM
 RAF
 MET
 UNT
-UPF
+PFUUB
 FEFA
 FMK
 FSU
@@ -132,7 +132,7 @@ FSU
 Ф
 ФИЛФАК
 ХФ
-ШФ
+ШФБ
 ФДУ
 ФЛУ
 ФМУ
@@ -150,7 +150,7 @@ FSU
 РАФ
 МЕТ
 УНТ
-УПФ
+ПФУУБ
 ФЕФА
 ФМК
 ФСУ
