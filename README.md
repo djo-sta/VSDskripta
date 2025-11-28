@@ -15,13 +15,7 @@ glasacka_kutija.cpp и укуцајте:
 
 `g++ glasacka_kutija.cpp -o glasacka_kutija`
 
-- Nakon što ste uneli ovu liniju u folderu će nastati novi fajl (na Windows je glasacka_kutija.exe, a na
-Linux i MacOS je glasacka_kutija ili glasacka_kutija.out). Pokrenite taj novi fajl. Ako se otvorio terminal
-na kom piše Почетни мени i lista opcija koje se mogu odabrati, čestitam! Uspeli ste da kompajlujete c++ kod!
-Ako niste dobili očekivani rezultat, pokušajte da pokrenete kao administrator, a ako ni to ne pomaže pitajte
-ChatGPT :)
-
-Након што сте унели ову линију у фолдеру ће настати нови фајл (на Windows је glasacka_kutija.exe, а на 
+- Након што сте унели ову линију у фолдеру ће настати нови фајл (на Windows је glasacka_kutija.exe, а на 
 Linux и MacOS је glasacka_kutija или glasacka_kutija.out). Покрените тај нови фајл. Ако се отворио терминал 
 на ком пише Почетни мени и листа опција које се могу одабрати, честитам! Успели сте да компајлујете c++ код! 
 Ако нисте добили очекивани резултат, покушајте да покренете као администратор, а ако ни то не помаже питајте 
