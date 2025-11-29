@@ -393,7 +393,7 @@ void OBRADA_GLASOVA(int br_tacaka, int odradjene_tacke, string* glasovi, rez* re
             else if (glasovi[i][j] == '2') protiv++;
         }
         if (za+protiv+uzdrzani >= kvorum) {
-            if (za > (1.5 * protiv)) {
+            if (za > (2 * protiv)) {
                 status = 1;
             }
             else {
